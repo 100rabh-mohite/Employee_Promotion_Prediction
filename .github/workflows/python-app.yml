@@ -22,7 +22,7 @@ jobs:
 
             - name: install Dependecies
               run: |
-                pip install -r requierments.txt
+                pip install -r requirements.txt
             - name: Train Model
               run: |
                 python src/train.py
